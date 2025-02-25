@@ -41,6 +41,7 @@ public class RegistroController implements Initializable, ControlledScreen {
                 "Hombre",
                 "Mujer"
                 );
+        ObservableList Options = null; // Nueva variable ****************************
         cbAddsex.setItems(Options);
         
         // Escuchador para comprobar si pierdo el foco

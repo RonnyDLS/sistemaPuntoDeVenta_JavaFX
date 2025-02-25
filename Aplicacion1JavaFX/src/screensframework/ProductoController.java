@@ -342,7 +342,8 @@ public class ProductoController implements Initializable, ControlledScreen {
                 PreparedStatement estado = conexion.prepareStatement(sql);
 
                 estado.executeUpdate();
-
+                int n = 0; // Nueva variable *******************
+                
                 if (n > 0) {
                     tablaProducto.getColumns().clear();
                     tablaProducto.getItems().clear();
